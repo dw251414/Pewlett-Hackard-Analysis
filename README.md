@@ -5,7 +5,7 @@
 
 ## What You're Creating
 
-This new assignment consists of two technical analysis deliverables and a written report. Further description below:
+Consists of two technical analysis deliverables and a written report. Further description below:
 
 - Deliverable 1: The Number of Retiring Employees by Title
 - Deliverable 2: The Employees Eligible for the Mentorship Program
@@ -14,14 +14,14 @@ This new assignment consists of two technical analysis deliverables and a writte
 ---
 
 ## Project Summary
-Pewlett Hackard is preparing for sa wave of retirements, a quick query provided insight on current employees who are eligible for retirement. 
+Pewlett Hackard is preparing for a wave of retirements, let's begin our review with some particular query results which provided insight on current employees who are eligible for retirement: 
 
-All of these current retire-eligible employees have held different positions at Pewlett Hackard. Please see the below spread, respectively.
+## Results
+
+Current retirement-eligible employees have held various positions thoughout their time at Pewlett Hackard. Please see the below spread, respectively.
 Seeing the scarcity of manager positions. This could be a good opportunity for stakeholders to look further into.
 
 ![No. of Titles Retiring](resources/Titles_Retiring.png)
-
-## Results
 
 - With the retirment titles table we are able to see eligible employees, along with the duration per position throughout their respective careers 
 
