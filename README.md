@@ -1,9 +1,9 @@
 # Pewlett-Hackard-Analysis
 --- 
 ### Background
-Create entity relationship diagrams, perform data modeling, and complete analysis on an employee database using SQL techniques.
+    Complete analysis on an employee database using SQL techniques.
 
-### What You're Creating
+## What You're Creating
 
 This new assignment consists of two technical analysis deliverables and a written report. Further description below:
 
@@ -14,35 +14,35 @@ This new assignment consists of two technical analysis deliverables and a writte
 ---
 
 ## Project Summary
-The Humans Resources (HR) Department at Pewlett Hackard is preparing for several employee retirements, but they were unsure how many or which departments they work. A quick query helped inform HR that they have 33,118 current employees who are eligible for retirement. 
+Pewlett Hackard is preparing for sa wave of retirements, a quick query provided insight on current employees who are eligible for retirement. 
 
-All of these current retire-eligible employees have held different positions at Pewlett Hackard. According to the table below, nearly 14,000 and roughly 13,000 had senior engineer and engineer positions, respectively. Following this group, almost 13,000 and 12,000 had senior staff and staff positions, respectively. It was interesting to see that there were only a handful of manager positions. This could be a good opportunity for HR to investigate why there were so few managers.
+All of these current retire-eligible employees have held different positions at Pewlett Hackard. Please see the below spread, respectively.
+Seeing the scarcity of manager positions. This could be a good opportunity for stakeholders to look further into.
 
 ![No. of Titles Retiring](resources/Titles_Retiring.png)
 
-# The Results
+## Results
 
-- With the retirment_titles table we are able to see every eligible for retirement employee and how long they have worked at each position over the course of their career.
+- With the retirment titles table we are able to see eligible employees, along with the duration per position throughout their respective careers 
 
-- The unique titles table that we created is showing the most recent title for employees of retirment age.
+- The unique titles table indicates the most recent title for retirement-eligable employees
 
-- Our retiring_titles shows us the a majority of the employees of retirment age (57,668/90,398 = 64%) have senior titles.
+- The retiring titles table also indicates a strong connection between retirement-eligable employees, and senior titleship
 
-- The final part of our project shows mentorship eligibility: 
+- The final part of our project provides insight on mentor-eligable employees to connect with for PH's budding mentorship programm: 
 
 ![Mentorship Eligibility (Head)](resources/mentorship_eligibility.png)
 
-# Conclusion
+## Conclusion
 
-Seeing the 63 % of the workforce is either retirment or mentorship eligible there will most likely be many positions to fill over the next 5-10 years. There may not exactly be enough people in the workforce to take care of the tasks or even come close to the amount of experience to fill these roles so quickly but what companies can do is try to best learn about what these employees did to be so successful/ having such long lasting careers to continue the tradition for future employees. Most likely the future generation is more computer savy/ efficent due to technologies and can catch on quickly helping companies continue to trend in the right direction by keeping revenues up.
-In light of these upcoming retirements, HR is also considering a mentorship program and wanted to get a better idea of which employees would be good candidates for mentoring. A quick query helped inform HR that there are 1,549 employees who are eligible to be mentors according to their criteria. The table provides a list of these employees and shows how long they have between with Pewlett Hackard as well as their positions in the company. 
+Seeing a majority of PH's workforce is either retirment or mentorship-eligible - the next 5-10 years is crucial in terms of replenishing talent. They will have to allocate financial investment, and sweat equity to address this growing need via training, further-education, recruiting ...etc. The aspiring Mentorship Program is a wise idea to get started - grassroots/academy-talent is attractive and lucrative. Our queries, and tables provide insights on the hard numbers and details here - mentorship-specifically: a list of these employees, time spent with Pewlett Hackard, as well as a track record of their positions while at the company. 
 
 
-## ERD schema
+### Entity Relationship Diagram (ERD)
 The image below is the ERD schema that was used to build queries for this challenge.
 
 ![ERD schema](resources/Entity_Relationship_Diagram.png)
 
-## Code and Outputs
-* Refer to "Project" folder for .sql file for queries
-* Refer to "Project > Data" folder for .csv files for examples of each output
+### Code and Outputs
+* Refer to "code" folder for project-related .sql queries
+* Refer to "resources" folder for project-related .csv datafiles
